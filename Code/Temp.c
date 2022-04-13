@@ -10,6 +10,14 @@
 #define PI 3.1415926535
 #define INTENSITY 0.01
 
+#define POSITION_FIL1_X 0.05
+#define POSITION_FIL2_X 0.15
+#define POSITION_FIL1_Z 0
+#define POSITION_FIL2_Z 0
+#define RAYON_FIL 0.001
+#define LONGUEUR 0.20
+#define PAS 0.01
+
 
 float abso(float a, float b){
     if(a-b>0)
@@ -24,42 +32,16 @@ float nappe_courant_y(float i, float longueur, float largeur){
     return j/2;
 }
 
-float courant_inverse1(float i, float x, float z, float f1, float f2){
-    float d1 = x - f1;
-    float R1 = sqrt(pow(z,2)+pow(d1,2));
-    float theta1 = atan(d1/z);
-    float Hx1 = i/(2*PI*R1*sin(theta1));
-    float Hy1 = i/(2*PI*R1*cos(theta1));
+float courant_inverse(float x, float z){
+    float r1 = sqrt(pow(x-POSITION_FIL1_X,2)+pow(z-POSITION_FIL1_Z,2));
+    float H1 = INTENSITY/(4*PI*r1);
 
-    float d2 = x - f2;
-    float R2 = sqrt(pow(z,2)+pow(d2,2));
-    float theta2 = atan(d2/z);
-    float Hx2 = i/(2*PI*R2*sin(theta2));
-    float Hy2 = i/(2*PI*R2*cos(theta2));
-    
-    float Hx = Hx1 + Hx2;
-    float Hy = Hy1 + Hy2;
-    float champ = sqrt(pow(Hx,2)+pow(Hy,2));
+    float r2 = sqrt(pow(x-POSITION_FIL2_X,2)+pow(z-POSITION_FIL2_Z,2));
+    float H2 = INTENSITY/(4*PI*r2);
+
+    float champ = H1 + H2;   
+    //printf("Champ est : %.6f\n",champ);
     return champ; 
-}
-
-float courant_inverse2(float i, float x, float z, float f1, float f2, float r){
-    float x1 = x - f1;
-    float d1 = sqrt(pow(x1,2)+pow(z,2));
-    float p1 = sqrt((pow(d1,2)/4 - pow(r,2)));
-    float Hx1 = (-1/PI)*p1*i*(2*x*z)/(pow(x*x-z*z-p1*p1,2)+4*pow(x,2)*pow(z,2));
-    float Hz1 = (-1/PI)*p1*i*(pow(x,2)-pow(z,2)-pow(p1,2))/(pow(x*x-z*z-p1*p1,2)+4*pow(x,2)*pow(z,2));
-
-    float x2 = x - f2;
-    float d2 = sqrt(pow(x2,2)+pow(z,2));
-    float p2 = sqrt((pow(d2,2)/4 - pow(r,2)));
-    float Hx2 = (-1/PI)*p2*i*(2*x*z)/(pow(x*x-z*z-p2*p2,2)+4*pow(x,2)*pow(z,2));
-    float Hz2 = (-1/PI)*p2*i*(pow(x,2)-pow(z,2)-pow(p2,2))/(pow(x*x-z*z-p2*p2,2)+4*pow(x,2)*pow(z,2));
-    
-    float Hx = Hx1 + Hx2;
-    float Hz = Hz1 + Hz2;
-    float H = sqrt(pow(Hx,2)+pow(Hz,2));
-    return H;
 }
 
 float dipole_magnetique(float i, float x, float y, float z, float diam){
@@ -74,30 +56,40 @@ float dipole_magnetique(float i, float x, float y, float z, float diam){
     return H;
 }
 
-
 float eta(float x,float cham){
     return ((CHI1-CHI2)/(2*G*(RHO1-RHO2)))*cham*cham;
 }
 
-float fonction(float x){
-    return 2*sin(x);
+
+float fonction(float x,float eta,float champ){
+    //printf("Champ : %f\n",champ);
+    return (RHO1-RHO2)*G*eta + 0.5*(CHI1-CHI2)*pow(champ,2);
 }
 
-float dichotomie(float n0, float n1){
+float dichotomie(float deb, float fin,float x0,float z){
+    float n0 = deb;
+    float n1 = fin;
     float temp = 0;
-    float n= (n0 + n1)/2;
-    while(abso(n,temp)>pow(10,-5)){
+    float n= (n0+n1)/2;
+    int iteration = 0;
+    float champ = courant_inverse(x0,z);
+    //float champ = nappe_courant_y(INTENSITY,LONGUEUR,LONGUEUR);
+    printf("Champ est %f\n",champ);
+    while(abso(n,temp)>pow(10,-9)){
         //printf("Valeur de n : %.9f\n",n);
         temp = n;
-        if(fonction(n)<0){
-            n0 = n;
-        }
-        else{
+        //printf("Fonction vaut : %f\n",fonction(x0,n,champ));
+        if(fonction(x0,n,champ)>0){
             n1 = n;
         }
+        else{
+            n0 = n;
+        }
         n = (n0 + n1)/2;
+        iteration++;
         //printf("Les valeurs absolues sont : %.9f\n",abso(n,temp));
     }
+    printf("Nombre d'iterations : %d\n",iteration);
     return n;
 }
 
@@ -107,19 +99,33 @@ float picard(float n){
     float temp = 0;
     while(abso(temp,x)>pow(10,-5)){
         temp = x;
-        x = fonction(x);
+        //x = fonction(x,n);
         //printf("Les valeurs absolues sont : %.9f\n",abso(n,temp));
     }
     return temp;
 }
 
+void iteration_sur_x(float deb, float fin, float x){
+    for(float i = deb; i<fin; i=i+PAS){
+        float eta = dichotomie(deb,fin,x,i);
+        printf("Valeur obtenue est : %.15f\n\n",eta);
+    }
+}
+
+void affiche_fonction(float deb,float fin, float x){
+    for(float i=deb;i<fin+PAS;i=i+PAS){
+        //float champ = courant_inverse(x,i);
+        float champ = nappe_courant_y(INTENSITY,LONGUEUR,LONGUEUR);
+        printf("Fonction = %f en z = %f\n",fonction(x,i,champ),i);
+    }
+}
+
 int main(){
-    float x=0.1;
-    float z = 0.01;
-    float i = INTENSITY;
-    float champ1 = courant_inverse2(i,x,z,0.05,0.15,0.001);
-    float champ3 = courant_inverse1(i,x,z,0.05,0.15);
-    float champ2 = nappe_courant_y(i,0.20,0.20);
+    //float x=0.1;
+    //float z = 0.01;
+    /*
+    float champ3 = courant_inverse(i,x,z,POSITION_FIL1,POSITION_FIL2);
+    float champ2 = nappe_courant_y(i,LONGUEUR,LONGUEUR);
     float champ4 = dipole_magnetique(i,x,0,z,0.005);
     float hauteur1 = eta(x,champ1);
     float hauteur2 = eta(x,champ2);
@@ -129,5 +135,9 @@ int main(){
     printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ2,hauteur2);
     printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ3,hauteur3);
     printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ4,hauteur4);
+    */
+    printf("\n");
+    iteration_sur_x(-LONGUEUR/2,LONGUEUR,0);
+    //affiche_fonction(0,LONGUEUR,0.01);
     return 0;
 }

@@ -1,3 +1,4 @@
 all:
-	gcc -Wall -o Temp Temp.c
+	gcc -Wall -c Temp.c
+	gcc -Wall -o Temp Temp.o
 	
