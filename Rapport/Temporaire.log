@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  6 APR 2022 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  20 APR 2022 17:52
 entering extended mode
 **./Temporaire.tex
 (Temporaire.tex
@@ -734,67 +734,91 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <Nappe.png, id=7, 632.96475pt x 344.487pt>
 File: Nappe.png Graphic file (type png)
 <use Nappe.png>
-Package pdftex.def Info: Nappe.png  used on input line 52.
+Package pdftex.def Info: Nappe.png  used on input line 54.
 (pdftex.def)             Requested size: 271.0125pt x 147.50099pt.
 <Fils.png, id=9, 567.3195pt x 364.36125pt>
 File: Fils.png Graphic file (type png)
 <use Fils.png>
-Package pdftex.def Info: Fils.png  used on input line 68.
+Package pdftex.def Info: Fils.png  used on input line 70.
 (pdftex.def)             Requested size: 216.80669pt x 139.24263pt.
 <Fils2.png, id=10, 585.98924pt x 372.1905pt>
 File: Fils2.png Graphic file (type png)
 <use Fils2.png>
-Package pdftex.def Info: Fils2.png  used on input line 69.
+Package pdftex.def Info: Fils2.png  used on input line 71.
 (pdftex.def)             Requested size: 216.80669pt x 137.70264pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Dipole.png, id=11, 619.71526pt x 395.076pt>
-File: Dipole.png Graphic file (type png)
-<use Dipole.png>
-Package pdftex.def Info: Dipole.png  used on input line 79.
-(pdftex.def)             Requested size: 271.0125pt x 172.779pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
 {C:/Users/Yamato Musubi/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Nappe
-.png>] [2 <./Fils.png> <./Fils2.png> <./Dipole.png>] (Temporaire.aux)
+.png>]
+<Dipole.png, id=31, 619.71526pt x 395.076pt>
+File: Dipole.png Graphic file (type png)
+<use Dipole.png>
+Package pdftex.def Info: Dipole.png  used on input line 82.
+(pdftex.def)             Requested size: 271.0125pt x 172.779pt.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+<Hauteur.png, id=32, 898.35625pt x 538.01pt>
+File: Hauteur.png Graphic file (type png)
+<use Hauteur.png>
+Package pdftex.def Info: Hauteur.png  used on input line 119.
+(pdftex.def)             Requested size: 271.0125pt x 162.29906pt.
+[2 <./Fils.png> <./Fils2.png> <./Dipole.png>]
+<Champ.png, id=48, 888.31876pt x 538.01pt>
+File: Champ.png Graphic file (type png)
+<use Champ.png>
+Package pdftex.def Info: Champ.png  used on input line 138.
+(pdftex.def)             Requested size: 271.0125pt x 164.13795pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--144
+
+ []
+
+[3 <./Hauteur.png> <./Champ.png>] (Temporaire.aux)
 Package rerunfilecheck Info: File `Temporaire.out' has not changed.
 (rerunfilecheck)             Checksum: 1D83ABA8D075E064EB2E72D929D15DFC;208.
  ) 
 Here is how much of TeX's memory you used:
- 13661 strings out of 478927
- 214598 string characters out of 2848707
- 552816 words of memory out of 3000000
- 31289 multiletter control sequences out of 15000+600000
+ 13685 strings out of 478927
+ 214903 string characters out of 2848707
+ 548987 words of memory out of 3000000
+ 31306 multiletter control sequences out of 15000+600000
  444164 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,7n,79p,524b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,79p,765b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-m
-athex.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/lm/lm-rm.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/d
-vips/lm/lm-mathsy.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fon
-ts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/Mi
+athsy.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/lm/lm-mathit.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fon
+ts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/Mi
 KTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Yamato Musubi/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Yamato Musubi/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Yamato Musubi/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Yamato Musu
 bi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Yam
-ato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Us
-ers/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
+ato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Us
+ers/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb
 ><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-r7.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmri10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmsy10.pfb>
-Output written on Temporaire.pdf (2 pages, 287486 bytes).
+r10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmr5.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmr7.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/lm/lmri10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Yamato Musubi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on Temporaire.pdf (3 pages, 386588 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 39 words of extra memory for PDF output out of 10000 (max. 10000000)
 

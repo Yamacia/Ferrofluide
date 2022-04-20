@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Wed Apr 13 21:46:37 2022
+# Make data base, printed on Wed Apr 20 14:24:47 2022
 
 # Variables
 
@@ -32,7 +32,8 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CURDIR := c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code
+CUR 
+DIR := c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code
 # default
 SHELL := C:/Program Files/Git/bin//sh.exe
 # environment
@@ -58,9 +59,9 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-150aa686-77a8-486b-88d3-249f3861f4d5-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5d1c96fd-1324-4471-b7af-71f277b02ec0-sock
 # environment
-VSCODE_CWD = C:\Users\Yamato Musubi\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\Yamato Musubi\Desktop\Confinement\MAIN3\S6\Fabien
 # environment
 PATH = C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\CodeBlocks\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\;C:\Users\Yamato Musubi\AppData\Local\Microsoft\WindowsApps;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Qt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Ssl;C:\Users\Yamato Musubi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2021b\bin;C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\;C:\Users\Yamato Musubi\AppData\Local\Microsoft\WindowsApps;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Qt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Ssl;C:\Users\Yamato Musubi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\Yamato Musubi\AppData\Local\Programs\Julia-1.6.3\bin;C:\Users\Yamato Musubi\AppData\Local\atom\bin;C:\MinGW\bin;
 # environment
@@ -70,8 +71,7 @@ PROCESSOR_ARCHITECTURE = x86
 # environment
 USERPROFILE = C:\Users\Yamato Musubi
 # environment
-DASHLANE_DLL_DIR = C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.2 
-8527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Qt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Ssl
+DASHLANE_DLL_DIR = C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Qt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\ucrt;C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Ssl
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
@@ -85,7 +85,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_39048_FMOJRTJJWHDGEAEI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10260_TYNJFZYQSQQXIJUP
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -160,7 +160,8 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
 SYSTEMROOT = C:\WINDOWS
-# automatic
+# automatic 
+
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # automatic
 +F = $(notdir $+)
@@ -197,7 +198,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 39048
+VSCODE_PID = 10260
 # environment
 USERDOMAIN_ROAMINGPROFILE = YAMATOPC
 # variable set hash-table stats:
@@ -214,33 +215,35 @@ USERDOMAIN_ROAMINGPROFILE = YAMATOPC
 # C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Ssl: could not be stat'd.
 # D:\CodeBlocks\MinGW\bin (key D:/CodeBlocks/MinGW/bin, mtime 1584296351): 55 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1559058508): 5 files, no impossibilities.
-# C:\Windows\System3 
-2\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1615821309): 32 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1615821309): 32 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1646992825): 155 files, no impossibilities.
-# . (key c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code, mtime 1649879190): 11 files, no impossibilities.
+# . (key c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code, mtime 1649949395): 10 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1578861668): 5 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1633468761): 8 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1559058484): 10 files, no impossibilities.
 # C:\Program Files (x86)\Razer Chroma SDK\bin (key C:/Program Files (x86)/Razer Chroma SDK/bin, mtime 1617649199): 45 files, no impossibilities.
-# C:\Users\Yamato Musubi\AppData\Local\Microsoft\WindowsApps (key C:/Users/Yamato Musubi/AppData/Local/Microsoft/WindowsApps, mtime 1649841128): 43 files, no impossibilities.
+# C:\Users\Yamato Musubi\AppData\Local\Microsoft\WindowsApps (key C:/Users/Yamato Musubi/AppData/Local/Microsoft/WindowsApps, mtime 1650445953): 43 files, no impossibilities.
 # C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Qt: could not be stat'd.
-# C:\WINDOWS (key C:/WINDOWS, mtime 1646992823): 143 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1646992823): 143 files, no impossibilities.
-# C:\Users\Yamato Musubi\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Yamato Musubi/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1649788440): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1649969482): 143 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1649969482): 143 files, no impossibilities.
+# C:\Users\Yamato Musubi\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Yamato Musubi/A 
+ppData/Local/Programs/Microsoft VS Code/bin, mtime 1649788440): 4 files, no impossibilities.
 # C:\Users\Yamato Musubi\AppData\Roaming\Dashlane\6.1950.0.28527\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components: could not be stat'd.
 # C:\Program Files\MATLAB\R2021b\bin (key C:/Program Files/MATLAB/R2021b/bin, mtime 1636940357): 14 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1646992825): 155 files, no impossibilities.
-# C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\ (key C:/Users/Yamato Musubi/AppData/Local/Programs/Python/Python37-32/, mtime 1637011900): 19 files, no impossibilities.
+# C:\Users\Yamato Musubi\ 
+AppData\Local\Programs\Python\Python37-32\ (key C:/Users/Yamato Musubi/AppData/Local/Programs/Python/Python37-32/, mtime 1637011900): 19 files, no impossibilities.
 # C:\Users\Yamato Musubi\AppData\Local\Programs\Python\Python37-32\Scripts\ (key C:/Users/Yamato Musubi/AppData/Local/Programs/Python/Python37-32/Scripts/, mtime 1644594193): 49 files, no impossibilities.
-# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1615821309): 32 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1649437542): 3017 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1615821309): 32 files, no impossibilities 
+.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1650445200): 3017 files, no impossibilities.
 # C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\ (key C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/miktex/bin/x64/, mtime 1632989909): 682 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files\Razer Chroma SDK\bin (key C:/Program Files/Razer Chroma SDK/bin, mtime 1617647205): 4 files, no impossibilities.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1649437542): 3017 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1650445200): 3017 files, no impossibilities.
 
-# 7653 files, no impossibilities in 29 directories.
+# 7652 files, no impossibilities in 29 directories.
 
 # Implicit Rules
 
@@ -288,10 +291,9 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-13 21:46:28
+#  Last modified 2022-04-14 16:54:31
 #  File has been updated.
-#  Successfully upda 
-ted.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -307,14 +309,15 @@ ted.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 9 (8) / strings = 4253 / storage = 66790 B / avg = 15 B
+# strcache buffers: 9 (8) / strings = 4252 / storage = 66783 B / avg = 15 B
 # current buf: size = 8174 B / used = 1461 B / count = 113 / avg = 12 B
-# other used: total = 58616 B / count = 4140 / avg = 14 B
-# other free: total = 63 B / max = 12 B / min = 6 B / avg = 7 B
+# other used: total = 58609 B / count = 4139 / avg = 14 B
+ 
+# other free: total = 70 B / max = 13 B / min = 6 B / avg = 8 B
 
-# strcache performance: lookups = 7691 / hit rate = 44%
+# strcache performance: lookups = 7690 / hit rate = 44%
 # hash-table stats:
-# Load=4253/8192=52%, Rehash=0, Collisions=2972/7691=39%
-# Finished Make data base on Wed Apr 13 21:46:37 2022
+# Load=4252/8192=52%, Rehash=0, Collisions=2963/7690=39%
+# Finished Make data base on Wed Apr 20 14:24:47 2022
 
  

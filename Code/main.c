@@ -17,7 +17,7 @@ int main(){
     printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ4,hauteur4);
     */
     printf("\n");
-    iteration_sur_x(-LONGUEUR/2,LONGUEUR,0);
+    iteration_sur_x(0,LONGUEUR,0,20);
     //affiche_fonction(0,LONGUEUR,0.01);
     return 0;
 }

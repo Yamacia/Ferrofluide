@@ -7,10 +7,11 @@
 #define xi1  1
 #define xi2 1
 #define g 9.81
+#define mu_0 1.25663706e-6
 
 
 float H(float x){
-    return(2.2);
+    return(mu_0*10*4*x);
 }
 
 float f(float x){
@@ -32,12 +33,12 @@ float newton(float x0,float eps, float h){
     return(x1);
 }
 
-float* eta(int deb, int fin,float h, float pas, float eps){ // h "pas" de la methode de newton, pas est le pas de x
-    int taille= (fin-deb)/pas;
+float* eta(int deb, int fin,float h, float pas, float eps,float* xvalue){ // h "pas" de la methode de newton, pas est le pas de x
+    int taille= (fin-deb)/pas+1;
     float x0=deb;
     float* hauteur=(float*)malloc(taille*sizeof(float));
     for (int i=0;i<taille;i++){
-        hauteur[i]=newton(x0,eps,h);
+        hauteur[i]=newton(xvalue[i],eps,h);
         x0=x0+pas;
     }
     return(hauteur);
@@ -45,7 +46,7 @@ float* eta(int deb, int fin,float h, float pas, float eps){ // h "pas" de la met
 
 void affiche_tab(float* tab, int n){
     for(int i=0;i<n;i++){
-        printf("%f",tab[i]);
+        printf("%f  ",tab[i]);
     }
 }
 
@@ -60,8 +61,8 @@ void export_txt(int n, float* value, float* hauteur){
 
 float* x_value(int deb, int fin, float pas){
     int a=(fin-deb)/pas;
-    float* value=(float*)malloc(sizeof(float));
-    for (int i=0;i<a;i++){
+    float* value=(float*)malloc((a+1)*sizeof(float));
+    for (int i=0;i<a+1;i++){
         value[i]=deb;
         deb=deb+pas;
     }
@@ -72,16 +73,18 @@ int main(){
     //float zero;
     float* hauteur;
     float* value;
-    float pas=0.001;
+    float pas=1;
     int deb=0;
     int fin=10;
     float eps=0.01;
     float h=0.001;
     //zero=newton(2,0.001,0.0001);
     //printf("%f",zero);
-    hauteur=eta(deb,fin,h,pas,eps);
     value=x_value(deb,fin,pas);
+    hauteur=eta(deb,fin,h,pas,eps,value);
+    affiche_tab(value,(fin-deb)/pas+1);
+    printf("\n");
     affiche_tab(hauteur,(fin-deb)/pas);
-    export_txt((fin-deb)/pas,value,hauteur);
+    export_txt((fin-deb)/pas+1,value,hauteur);
     return 0;
 }

@@ -1,8 +1,7 @@
-make.exe --dry-run --keep-going --print-directory
+make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code'
 gcc -Wall -c main.c
 gcc -Wall -c code.c
 gcc -Wall -o main main.o code.o
- 
 make.exe: Leaving directory 'c:/Users/Yamato Musubi/Desktop/Confinement/MAIN3/S6/Interfaces Magn�tiques/Code'
  
