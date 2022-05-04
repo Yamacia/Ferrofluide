@@ -1,4 +1,6 @@
-#include "code.h"
+#include "code.hpp"
+using namespace std;
+
 
 int main(){
     //float x=0.1;
@@ -11,13 +13,9 @@ int main(){
     float hauteur2 = eta(x,champ2);
     float hauteur3 = eta(x,champ3);
     float hauteur4 = eta(x,champ4);
-    printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ1,hauteur1);
-    printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ2,hauteur2);
-    printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ3,hauteur3);
-    printf("Champ en x = %.2f est %.6f, Hauteur est : %.6f\n",x,champ4,hauteur4);
     */
-    printf("\n");
-    printf("Preuve que c'est la version C\n");
+    cout <<"\n";
+    cout <<"Preuve que c'est la version C++\n";
     iteration_sur_x(0,LONGUEUR,0,20);
     //affiche_fonction(0,LONGUEUR,0.01);
     return 0;
