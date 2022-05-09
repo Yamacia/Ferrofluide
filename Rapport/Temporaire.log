@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  20 APR 2022 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  20 APR 2022 20:51
 entering extended mode
 **./Temporaire.tex
 (Temporaire.tex
@@ -731,17 +731,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 46.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 46.
-<Nappe.png, id=7, 632.96475pt x 344.487pt>
+<Nappe.png, id=3, 632.96475pt x 344.487pt>
 File: Nappe.png Graphic file (type png)
 <use Nappe.png>
 Package pdftex.def Info: Nappe.png  used on input line 54.
 (pdftex.def)             Requested size: 271.0125pt x 147.50099pt.
-<Fils.png, id=9, 567.3195pt x 364.36125pt>
+<Fils.png, id=5, 567.3195pt x 364.36125pt>
 File: Fils.png Graphic file (type png)
 <use Fils.png>
 Package pdftex.def Info: Fils.png  used on input line 70.
 (pdftex.def)             Requested size: 216.80669pt x 139.24263pt.
-<Fils2.png, id=10, 585.98924pt x 372.1905pt>
+<Fils2.png, id=6, 585.98924pt x 372.1905pt>
 File: Fils2.png Graphic file (type png)
 <use Fils2.png>
 Package pdftex.def Info: Fils2.png  used on input line 71.
@@ -754,7 +754,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {C:/Users/Yamato Musubi/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Nappe
 .png>]
-<Dipole.png, id=31, 619.71526pt x 395.076pt>
+<Dipole.png, id=28, 619.71526pt x 395.076pt>
 File: Dipole.png Graphic file (type png)
 <use Dipole.png>
 Package pdftex.def Info: Dipole.png  used on input line 82.
@@ -769,31 +769,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-<Hauteur.png, id=32, 898.35625pt x 538.01pt>
+<Hauteur.png, id=29, 898.35625pt x 538.01pt>
 File: Hauteur.png Graphic file (type png)
 <use Hauteur.png>
 Package pdftex.def Info: Hauteur.png  used on input line 119.
 (pdftex.def)             Requested size: 271.0125pt x 162.29906pt.
 [2 <./Fils.png> <./Fils2.png> <./Dipole.png>]
-<Champ.png, id=48, 888.31876pt x 538.01pt>
+
+LaTeX Warning: Reference `eq02' on page 3 undefined on input line 124.
+
+<Champ.png, id=44, 888.31876pt x 538.01pt>
 File: Champ.png Graphic file (type png)
 <use Champ.png>
 Package pdftex.def Info: Champ.png  used on input line 138.
 (pdftex.def)             Requested size: 271.0125pt x 164.13795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--144
+Underfull \hbox (badness 10000) in paragraph at lines 128--146
 
  []
 
-[3 <./Hauteur.png> <./Champ.png>] (Temporaire.aux)
-Package rerunfilecheck Info: File `Temporaire.out' has not changed.
-(rerunfilecheck)             Checksum: 1D83ABA8D075E064EB2E72D929D15DFC;208.
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--155
+
+ []
+
+[3 <./Hauteur.png> <./Champ.png>] [4] (Temporaire.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Temporaire.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Temporaire.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  1D83ABA8D075E064EB2E72D929D15DFC;208.
  ) 
 Here is how much of TeX's memory you used:
- 13685 strings out of 478927
- 214903 string characters out of 2848707
- 548987 words of memory out of 3000000
- 31306 multiletter control sequences out of 15000+600000
+ 13686 strings out of 478927
+ 214914 string characters out of 2848707
+ 548479 words of memory out of 3000000
+ 31305 multiletter control sequences out of 15000+600000
  444164 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,79p,765b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -816,9 +836,9 @@ c/lm/lmr5.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1
 /type1/public/lm/lmri10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Yamato Musubi/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Temporaire.pdf (3 pages, 386588 bytes).
+Output written on Temporaire.pdf (4 pages, 394206 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 39 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

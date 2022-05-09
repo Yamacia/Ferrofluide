@@ -140,6 +140,17 @@ Nous avons donc tracé le graphe du champ magnétique que l'on obtient au point 
 \end{figure}
 Les valeurs prises par le champ sont comprises entre [-300;300], nous avons donc conclut que \textbf{le problème ne provient pas du champ}.
 \newline\newline
+Nous avons donc essayé de déterminer l'ordre de grandeur de la fonction f(x,$\eta$), en donnant des ordres de grandeurs pour chaque terme de l'équation :
+\newline
+On rappelle la formule utilisée : 
+\begin{equation}
+(\rho_{1} - \rho_{2})g\eta + \frac{1}{2}(\chi_{1} - \chi_{2})H^{2}(x,\eta)=0
+\label{eq07}
+\end{equation}
+En considérant que l'élément 1 est \textbf{l'air} et l'élément 2 \textbf{du chlorure de fer $FeCl_{3}$}, on a $\rho_{air}$ = 1292, $\chi_{air}$ = 0.38*10$^{-6}$, $\rho_{FeCl_{3}}$ = 2900, $\chi_{air}$ = 3000*10$^{-6}$ on pose alors : \\
+$\Delta\rho$ = 10$^{-3}$, $\Delta\chi$ = $10^{-3}$, g = 10, H = $10^{-2}$ (on est toujours dans le cas du fil infini). \\
+En remplaçant dans l'équation, on retrouve que $\eta$ est de l'ordre de $10^{-5}$, ce qui est effectivement ce qu'on retrouve parmi les résultats renvoyés par l'algorithme, donc on pense que le problème est dans notre expression de la fonction.
+\newline\newline
 Un autre problème est que la hauteur $\eta$ est toujours négative, alors que notre hauteur devrait toujours être positive ou nulle. Un simple ajout de signe négatif pourrait régler le problème mais nous n'arrivons pas savoir comment le justifier. 
 \end{document}
    
