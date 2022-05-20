@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: rapport.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Database file #1: bibliographie.bib
+Warning--empty journal in euler
+Warning--empty journal in newton
+You've used 12 entries,
+            1791 wiz_defined-function locations,
+            485 strings with 4455 characters,
+and the built_in function-call counts, 1448 in all, are:
+= -- 98
+> -- 48
+< -- 0
++ -- 24
+- -- 12
+* -- 14
+:= -- 233
+add.period$ -- 28
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 72
+empty$ -- 201
+format.name$ -- 12
+if$ -- 327
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 4
+newline$ -- 55
+num.names$ -- 12
+pop$ -- 56
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 67
+stack$ -- 0
+substring$ -- 0
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 12
+width$ -- 14
+write$ -- 96
+(There were 2 warnings)

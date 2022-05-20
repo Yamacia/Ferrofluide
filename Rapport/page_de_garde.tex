@@ -1,0 +1,46 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{eso-pic}
+\usepackage{fontspec}
+
+ 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\blap}[1]{\vbox to 0pt{#1\vss}}
+\newcommand\AtUpperLeftCorner[3]{%
+  \put(\LenToUnit{#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{#3}}%
+}
+\newcommand\AtUpperRightCorner[3]{%
+  \put(\LenToUnit{\dimexpr\paperwidth-#1},\LenToUnit{\dimexpr\paperheight-#2}){\blap{\llap{#3}}}%
+}
+\title{\LARGE{Contrôle magnétique d'interfaces liquides}}
+\author{Pauline TOURNIER, Lucie MINIAOU, Leo-Paul BAUDET,  Mathieu NGUYEN, \\sous l'encadrement de
+Mr Pierre Carles\\Main3}
+\makeatletter
+ 
+\begin{document}
+ 
+\begin{titlepage}
+    \enlargethispage{2cm}
+ 
+    \AddToShipoutPicture{
+        \AtUpperLeftCorner{0.5cm}{1cm}{\includegraphics[scale=0.2]{Logo_Polytech_Sorbonne.png}}
+        \AtUpperRightCorner{0.5cm}{1cm}{\includegraphics[scale=0.1]{Logo_Sorbonne_Universite.png}}
+    }
+ 
+    \begin{center}
+        \vspace*{5cm}
+
+        \textsc{\@title}
+        \HRule
+        \vspace*{0.5cm}
+ 
+        \large{\@author} 
+    \end{center}
+ 
+\end{titlepage}
+\ClearShipoutPicture
+\end{document}

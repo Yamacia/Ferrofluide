@@ -1,0 +1,34 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Définitions}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Colloïde}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Familles de composés magnétiques}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ferrofluides}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Notions d'hydrodynamique}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Tension de surface}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Courbure}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Angle de mouillage \cite {hydrodynamique}}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Notions d'électromagnétisme}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Moment magnétique et Aimantation}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Équations de Maxwell et théorème d'Ampère}{6}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Équation de la surface}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Configuration Étudiée}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Équation associée}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Résolution numérique de l'équation}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Résolution sans champ magnétique}{8}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Résolution théorique de l'équation}{8}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Résolution numérique de l'équation}{9}{subsubsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.2}Résolution sans terme différentiel}{11}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Champs magnétiques: Nappe de courant}{11}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Champs magnétiques : Fils }{12}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Champs magnétiques: Dipôle magnétique}{13}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Schéma numérique}{13}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Résolution Générale}{15}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Bilan Ethique}{16}{section.7}%
+\contentsline {section}{\numberline {8}Bilan personnel}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Mathieu Nguyen}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Léo-Paul Baudet}{16}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Pauline Tournier}{16}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Lucie Miniaou}{16}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Conclusion}{16}{section.9}%
+\contentsline {part}{Annexe :}{17}{part*.11}%

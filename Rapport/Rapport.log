@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  6 APR 2022 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  20 MAY 2022 20:15
 entering extended mode
-**./Rapport.tex
-(Rapport.tex
+**./rapport.tex
+(rapport.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cl
@@ -22,6 +22,12 @@ File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.s
+ty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.s
 ty
@@ -50,16 +56,6 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\
-francais.ldf
-Language: francais 2021/07/20 v3.5m French support from the babel system
-
-
-Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
-(francais.ldf)                it might be removed sooner or later. Please
-(francais.ldf)                use `french' instead; reported on input line 31.
-
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\
 french.ldf
 Language: french 2021/07/20 v3.5m French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
@@ -72,7 +68,7 @@ Package babel Info: Making ; an active character on input line 431.
 Package babel Info: Making ! an active character on input line 432.
 Package babel Info: Making ? an active character on input line 433.
 \FBguill@level=\count193
-\FBold@everypar=\toks16
+\FBold@everypar=\toks18
 \FB@Mht=\dimen140
 \mc@charclass=\count194
 \mc@charfam=\count195
@@ -86,13 +82,13 @@ Package babel Info: Making ? an active character on input line 433.
 \leftmarginFB=\dimen145
 \parindentFFN=\dimen146
 \FBfnindent=\dimen147
-)))
+))
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalef
 nt.sty)
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval
 .sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath
 .sty
@@ -108,7 +104,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.
 sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks20
 \ex@=\dimen148
 ))
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.
@@ -140,51 +136,36 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count272
 \dspbrk@lvl=\count273
-\tag@help=\toks19
+\tag@help=\toks21
 \row@=\count274
 \column@=\count275
 \maxfields@=\count276
-\andhelp@=\toks20
+\andhelp@=\toks22
 \eqnshift@=\dimen151
 \alignsep@=\dimen152
 \tagshift@=\dimen153
 \tagwidth@=\dimen154
 \totwidth@=\dimen155
 \lineht@=\dimen156
-\@envbody=\toks21
+\@envbody=\toks23
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.s
-ty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks23
-\inpenc@posthook=\toks24
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfon
+ts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.st
-y
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fancyb
-ox.sty
-Package: fancybox 2010/05/15 1.4
-
-Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box52
-\shadowsize=\dimen157
-\@Sbox=\box53
-\do@VerbBox=\toks25
-\the@fancyput=\toks26
-\this@fancyput=\toks27
-\EndVerbatimTokens=\toks28
-\Verbatim@Outfile=\write3
-\Verbatim@Infile=\read3
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
-Package: alltt 2021/01/29 v2.0g defines alltt environment
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssym
+b.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
 cx.sty
@@ -208,43 +189,59 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 ftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
+.sty
+Package: caption 2022/02/20 v3.6 Customizing captions (AR)
+
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
+3.sty
+Package: caption3 2022/01/07 v2.3 caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count277
+\c@continuedfloat=\count278
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/systeme\systeme
+.sty
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring
+.sty
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstri
+ng.tex
+\integerpart=\count279
+\decimalpart=\count280
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/systeme\syste
+me.tex
+\SYS_systemecode=\toks25
+\SYS_systempreamble=\toks26
+\SYSeqnum=\count281
+)
+Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcapt
+ion.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count282
+\c@subtable=\count283
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/esvect\esvect.s
+ty
+Package: esvect 
+\symesvector=\mathgroup6
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperr
 ef.sty
@@ -299,9 +296,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen160
-\Hy@linkcounter=\count277
-\Hy@pagecounter=\count278
+\@linkdim=\dimen167
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc
 .def
@@ -322,7 +319,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 cmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count279
+\Hy@SavedSpaceFactor=\count286
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.
 def
@@ -330,9 +327,6 @@ File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
-Package hyperref Info: Option `hyperindex' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
 Package hyperref Info: Hyper index ON on input line 4200.
@@ -340,14 +334,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count280
+\c@Hy@tempcnt=\count287
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen161
+\XeTeXLinkMargin=\dimen168
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset
 .sty
@@ -358,14 +352,14 @@ gintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count281
-\Field@Width=\dimen162
-\Fld@charsize=\dimen163
+\Fld@menulength=\count288
+\Field@Width=\dimen169
+\Fld@charsize=\dimen170
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
 Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring OFF on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
@@ -376,9 +370,9 @@ tx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -392,8 +386,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count285
-\c@bookmark@seq@number=\count286
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\
 rerunfilecheck.sty
@@ -408,87 +402,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/epsf\epsf.sty
-This is `epsf.tex' v2.7.4 <14 February 2011>
-\epsffilein=\read4
-\epsfframemargin=\dimen164
-\epsfframethickness=\dimen165
-\epsfrsize=\dimen166
-\epsftmp=\dimen167
-\epsftsize=\dimen168
-\epsfxsize=\dimen169
-\epsfysize=\dimen170
-\pspoints=\dimen171
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumit
-em.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip53
-\enit@outerparindent=\dimen172
-\enit@toks=\toks29
-\enit@inbox=\box54
-\enit@count@id=\count287
-\enitdp@description=\count288
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.s
-ty
-Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
-
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
-)
-LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authbl
-k.sty
-Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip54
-\@affilsep=\skip55
-\c@Maxaffil=\count289
-\c@authors=\count290
-\c@affil=\count291
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling
-.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip56
-\thanksmargin=\skip57
-\droptitle=\skip58
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/floatflt\floatf
-lt.sty
-Package: floatflt 1997/07/16 v. 1.31
-\c@OptionTest=\count292
-\figbox=\box55
-\tabbox=\box56
-\pagebox=\box57
-\ffigcount=\count293
-\ftabcount=\count294
-\fftest=\count295
-\hangcount=\count296
-\nosuccesstryfig=\count297
-\nosuccesstrytab=\count298
-\figgutter=\dimen173
-\tabgutter=\dimen174
-\htdone=\dimen175
-\pageht=\dimen176
-\startpageht=\dimen177
-\tabbredd=\dimen178
-\floatfltwidth=\dimen179
-\fltitemwidth=\dimen180
-\outputpretest=\toks30
-)
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/changepage\chan
-gepage.sty
-Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count299
-\cp@tempcnt=\count300
-)
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geomet
 ry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -497,129 +410,117 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count301
-\Gm@cntv=\count302
-\c@Gm@tempcnt=\count303
-\Gm@bindingoffset=\dimen181
-\Gm@wd@mp=\dimen182
-\Gm@odd@mp=\dimen183
-\Gm@even@mp=\dimen184
-\Gm@layoutwidth=\dimen185
-\Gm@layoutheight=\dimen186
-\Gm@layouthoffset=\dimen187
-\Gm@layoutvoffset=\dimen188
-\Gm@dimlist=\toks31
+\Gm@cnth=\count294
+\Gm@cntv=\count295
+\c@Gm@tempcnt=\count296
+\Gm@bindingoffset=\dimen171
+\Gm@wd@mp=\dimen172
+\Gm@odd@mp=\dimen173
+\Gm@even@mp=\dimen174
+\Gm@layoutwidth=\dimen175
+\Gm@layoutheight=\dimen176
+\Gm@layouthoffset=\dimen177
+\Gm@layoutvoffset=\dimen178
+\Gm@dimlist=\toks27
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geomet
 ry.cfg))
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip
-.sty
-Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.sty
+\lst@mode=\count297
+\lst@gtempboxa=\box52
+\lst@token=\toks28
+\lst@length=\count298
+\lst@currlwidth=\dimen179
+\lst@column=\count299
+\lst@pos=\count300
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count301
+\lst@lineno=\count302
+\lst@maxwidth=\dimen182
 
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolb
-ox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
+c.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count303
+\lst@skipnumbers=\count304
+\lst@framebox=\box53
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.s
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.s
 ty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
-.sty
-Package: caption 2022/02/20 v3.6 Customizing captions (AR)
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
-3.sty
-Package: caption3 2022/01/07 v2.3 caption3 kernel (AR)
-\caption@tempdima=\dimen189
-\captionmargin=\dimen190
-\caption@leftmargin=\dimen191
-\caption@rightmargin=\dimen192
-\caption@width=\dimen193
-\caption@indent=\dimen194
-\caption@parindent=\dimen195
-\caption@hangindent=\dimen196
-Package caption Info: Standard document class detected.
-Package caption Info: french babel package is loaded.
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\c@caption@flags=\count305
-\c@continuedfloat=\count306
-Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen197
-\caption@adjustwidth@linewidth=\dimen198
-Package caption Info: floatflt package is loaded.
-Package caption Info: hyperref package is loaded.
-)
-\c@KVtest=\count307
-\sf@farskip=\skip59
-\sf@captopadj=\dimen199
-\sf@capskip=\skip60
-\sf@nearskip=\skip61
-\c@subfigure=\count308
-\c@subfigure@save=\count309
-\c@lofdepth=\count310
-\c@subtable=\count311
-\c@subtable@save=\count312
-\c@lotdepth=\count313
-\sf@top=\skip62
-\sf@bottom=\skip63
-)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 25
-.
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3bac
 kend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box58
-) (Rapport.aux)
-\openout1 = `Rapport.aux'.
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box54
+) (rapport.aux)
+\openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Info: Redefining \degres on input line 25.
-Package french.ldf Info: Setting StandardItemizeEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 25.
-Package french.ldf Info: Setting StandardEnumerateEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 25.
-LaTeX Info: Redefining \up on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Info: Redefining \degres on input line 76.
+LaTeX Info: Redefining \up on input line 76.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 76.
+
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
 p-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen256
-\scratchbox=\box59
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen257
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count306
+\scratchdimen=\dimen183
+\scratchbox=\box55
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen184
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks30
 )
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
 stopdf-base.sty
@@ -631,17 +532,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 df-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.
-sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\co
-lor.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-)
-Package hyperref Info: Link coloring ON on input line 25.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 76.
 
 (C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namere
 f.sty
@@ -655,30 +550,30 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
- (Rapport.out) (Rapport.out)
-\@outlinefile=\write4
-\openout4 = `Rapport.out'.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
+ (rapport.out) (rapport.out)
+\@outlinefile=\write3
+\openout3 = `rapport.out'.
 
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=542.02501pt
-* \textheight=722.7pt
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
 * \topmargin=-73.135pt
@@ -686,7 +581,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -699,96 +594,489 @@ LaTeX Info: Redefining \nameref on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-7.
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+\c@lstlisting=\count313
+(rapport.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.f
+d
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.f
+d
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-47.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+4.
 
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-47.
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.
+fd
+File: uesvect.fd 
+))
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
 
-(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--72
-
- []
-
-<hauteur_fluide_eau.png, id=19, 375.4025pt x 264.99pt>
-File: hauteur_fluide_eau.png Graphic file (type png)
-<use hauteur_fluide_eau.png>
-Package pdftex.def Info: hauteur_fluide_eau.png  used on input line 88.
-(pdftex.def)             Requested size: 271.0125pt x 191.31425pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--93
-
- []
-
-[1
+ [1
 
 {C:/Users/Yamato Musubi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-[2 <./hauteur_fluide_eau.png>] (Rapport.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
-Package rerunfilecheck Warning: File `Rapport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+ []
 
-Package rerunfilecheck Info: Checksums for `Rapport.out':
-(rerunfilecheck)             Before: 0D08B061C925349ADD98FD684470A4CA;726
-(rerunfilecheck)             After:  A4BEC4622B395F90F4A8F1DDAA7C7A38;518.
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--92
+
+ []
+
+<images/solution-colloidale.jpg, id=180, 963.6pt x 412.54124pt>
+File: images/solution-colloidale.jpg Graphic file (type jpg)
+<use images/solution-colloidale.jpg>
+Package pdftex.def Info: images/solution-colloidale.jpg  used on input line 97.
+
+(pdftex.def)             Requested size: 289.08223pt x 123.76332pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 98.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--104
+
+ []
+
+<images/stabilité_colloidale.jpg, id=183, 903.375pt x 479.54156pt>
+File: images/stabilité_colloidale.jpg Graphic file (type jpg)
+<use images/stabilité_colloidale.jpg>
+Package pdftex.def Info: images/stabilité_colloidale.jpg  used on input line 1
+05.
+(pdftex.def)             Requested size: 225.8432pt x 119.88509pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 106.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--122
+
+ []
+
+[2 <./images/solution-colloidale.jpg> <./images/stabilité_colloidale.jpg>]
+<images/diag_para_ferro_mag.jpg, id=194, 593.71812pt x 117.43875pt>
+File: images/diag_para_ferro_mag.jpg Graphic file (type jpg)
+<use images/diag_para_ferro_mag.jpg>
+Package pdftex.def Info: images/diag_para_ferro_mag.jpg  used on input line 123
+.
+(pdftex.def)             Requested size: 356.23363pt x 70.46378pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 124.
+See the caption package documentation for explanation.
+
+<images/goutte_ferro.jpg, id=195, 227.34938pt x 140.525pt>
+File: images/goutte_ferro.jpg Graphic file (type jpg)
+<use images/goutte_ferro.jpg>
+Package pdftex.def Info: images/goutte_ferro.jpg  used on input line 132.
+(pdftex.def)             Requested size: 210.09193pt x 129.8592pt.
+<images/aimment_ferro.jpg, id=196, 328.22626pt x 189.70876pt>
+File: images/aimment_ferro.jpg Graphic file (type jpg)
+<use images/aimment_ferro.jpg>
+Package pdftex.def Info: images/aimment_ferro.jpg  used on input line 135.
+(pdftex.def)             Requested size: 210.09193pt x 121.43054pt.
+<images/ferro.jpg, id=197, 376.90813pt x 257.96375pt>
+File: images/ferro.jpg Graphic file (type jpg)
+<use images/ferro.jpg>
+Package pdftex.def Info: images/ferro.jpg  used on input line 138.
+(pdftex.def)             Requested size: 210.09193pt x 143.78955pt.
+[3 <./images/diag_para_ferro_mag.jpg> <./images/goutte_ferro.jpg> <./images/aim
+ment_ferro.jpg> <./images/ferro.jpg>]
+<images/tension.jpg, id=208, 155.07938pt x 80.3pt>
+File: images/tension.jpg Graphic file (type jpg)
+<use images/tension.jpg>
+Package pdftex.def Info: images/tension.jpg  used on input line 148.
+(pdftex.def)             Requested size: 124.06364pt x 64.24007pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 149.
+See the caption package documentation for explanation.
+
+<images/insecte.jpg, id=209, 256.45813pt x 199.24437pt>
+File: images/insecte.jpg Graphic file (type jpg)
+<use images/insecte.jpg>
+Package pdftex.def Info: images/insecte.jpg  used on input line 153.
+(pdftex.def)             Requested size: 205.16676pt x 159.3957pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 154.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
+
+ []
+
+[4 <./images/tension.jpg> <./images/insecte.jpg>]
+<images/courbure.jpg, id=221, 276.03125pt x 211.28937pt>
+File: images/courbure.jpg Graphic file (type jpg)
+<use images/courbure.jpg>
+Package pdftex.def Info: images/courbure.jpg  used on input line 181.
+(pdftex.def)             Requested size: 276.03056pt x 211.28885pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 182.
+See the caption package documentation for explanation.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 190.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--197
+
+ []
+
+<images/mouillage.jpg, id=224, 285.065pt x 94.85437pt>
+File: images/mouillage.jpg Graphic file (type jpg)
+<use images/mouillage.jpg>
+Package pdftex.def Info: images/mouillage.jpg  used on input line 198.
+(pdftex.def)             Requested size: 228.0523pt x 75.88358pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 199.
+See the caption package documentation for explanation.
+
+<images/ménisque.jpg, id=225, 256.45813pt x 155.58125pt>
+File: images/ménisque.jpg Graphic file (type jpg)
+<use images/ménisque.jpg>
+Package pdftex.def Info: images/ménisque.jpg  used on input line 204.
+(pdftex.def)             Requested size: 205.16676pt x 124.46515pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 205.
+See the caption package documentation for explanation.
+
+[5 <./images/courbure.jpg> <./images/mouillage.jpg> <./images/ménisque.jpg>]
+<images/equ_maxwell.jpg, id=237, 223.83624pt x 226.8475pt>
+File: images/equ_maxwell.jpg Graphic file (type jpg)
+<use images/equ_maxwell.jpg>
+Package pdftex.def Info: images/equ_maxwell.jpg  used on input line 221.
+(pdftex.def)             Requested size: 156.6843pt x 158.79216pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 222.
+See the caption package documentation for explanation.
+
+<images/theoreme_ampere.png, id=238, 385.44pt x 101.37875pt>
+File: images/theoreme_ampere.png Graphic file (type png)
+<use images/theoreme_ampere.png>
+Package pdftex.def Info: images/theoreme_ampere.png  used on input line 226.
+(pdftex.def)             Requested size: 269.80615pt x 70.96463pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 227.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--238
+
+ []
+
+<images/IMG_4598.jpg, id=240, 752.8125pt x 564.60938pt>
+File: images/IMG_4598.jpg Graphic file (type jpg)
+<use images/IMG_4598.jpg>
+Package pdftex.def Info: images/IMG_4598.jpg  used on input line 239.
+(pdftex.def)             Requested size: 301.11966pt x 225.83974pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 240.
+See the caption package documentation for explanation.
+
+[6 <./images/equ_maxwell.jpg> <./images/theoreme_ampere.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--276
+
+ []
+
+[7 <./images/IMG_4598.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
+
+ []
+
+<Schema1.JPG, id=264, 635.37375pt x 302.93175pt>
+File: Schema1.JPG Graphic file (type jpg)
+<use Schema1.JPG>
+Package pdftex.def Info: Schema1.JPG  used on input line 318.
+(pdftex.def)             Requested size: 312.9937pt x 170.71762pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
+
+ []
+
+[8 <./Schema1.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 382--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
+
+ []
+
+<Euler_eta0.png, id=280, 401.5pt x 264.99pt>
+File: Euler_eta0.png Graphic file (type png)
+<use Euler_eta0.png>
+Package pdftex.def Info: Euler_eta0.png  used on input line 444.
+(pdftex.def)             Requested size: 199.16928pt x 131.4555pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 445.
+See the caption package documentation for explanation.
+
+<Euler_1.png, id=282, 390.45876pt x 264.99pt>
+File: Euler_1.png Graphic file (type png)
+<use Euler_1.png>
+Package pdftex.def Info: Euler_1.png  used on input line 451.
+(pdftex.def)             Requested size: 199.16928pt x 135.16736pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 452.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--456
+
+ []
+
+[9]
+<errreur.png, id=296, 423.5825pt x 264.99pt>
+File: errreur.png Graphic file (type png)
+<use errreur.png>
+Package pdftex.def Info: errreur.png  used on input line 463.
+(pdftex.def)             Requested size: 262.61894pt x 164.29614pt.
+ [10 <./Euler_eta0.png> <./Euler_1.png> <./errreur.png>]
+<graph_Erreur.png, id=307, 398.48875pt x 283.0575pt>
+File: graph_Erreur.png Graphic file (type png)
+<use graph_Erreur.png>
+Package pdftex.def Info: graph_Erreur.png  used on input line 473.
+(pdftex.def)             Requested size: 262.61894pt x 186.55074pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
+
+ []
+
+<img_yamato/Nappe.png, id=310, 632.96475pt x 344.487pt>
+File: img_yamato/Nappe.png Graphic file (type png)
+<use img_yamato/Nappe.png>
+Package pdftex.def Info: img_yamato/Nappe.png  used on input line 495.
+(pdftex.def)             Requested size: 262.61894pt x 142.93315pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./graph_Erreur.png>]
+<img_yamato/Fils.png, id=320, 567.3195pt x 364.36125pt>
+File: img_yamato/Fils.png Graphic file (type png)
+<use img_yamato/Fils.png>
+Package pdftex.def Info: img_yamato/Fils.png  used on input line 506.
+(pdftex.def)             Requested size: 210.09193pt x 134.9283pt.
+<img_yamato/Fils2.png, id=321, 585.98924pt x 372.1905pt>
+File: img_yamato/Fils2.png Graphic file (type png)
+<use img_yamato/Fils2.png>
+Package pdftex.def Info: img_yamato/Fils2.png  used on input line 507.
+(pdftex.def)             Requested size: 210.09193pt x 133.43759pt.
+ [12 <./img_yamato/Nappe.png> <./img_yamato/Fils.png> <./img_yamato/Fils2.png>]
+<img_yamato/Dipole.png, id=338, 395.076pt x 619.71526pt>
+File: img_yamato/Dipole.png Graphic file (type png)
+<use img_yamato/Dipole.png>
+Package pdftex.def Info: img_yamato/Dipole.png  used on input line 538.
+(pdftex.def)             Requested size: 157.57297pt x 247.1725pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--574
+
+ []
+
+[13 <./img_yamato/Dipole.png>]
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlan
+g1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\Yamato Musubi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
+c.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 579.
+ (code.cpp
+consecutive:
+) (code.cpp
+consecutive:
+)
+<img_yamato/Hauteur.png, id=353, 889.3225pt x 538.01pt>
+File: img_yamato/Hauteur.png Graphic file (type png)
+<use img_yamato/Hauteur.png>
+Package pdftex.def Info: img_yamato/Hauteur.png  used on input line 590.
+(pdftex.def)             Requested size: 315.14594pt x 190.65419pt.
+ [14 <./img_yamato/Hauteur.png>]
+<img_yamato/Nappe_plot.png, id=402, 902.37125pt x 538.01pt>
+File: img_yamato/Nappe_plot.png Graphic file (type png)
+<use img_yamato/Nappe_plot.png>
+Package pdftex.def Info: img_yamato/Nappe_plot.png  used on input line 598.
+(pdftex.def)             Requested size: 315.14594pt x 187.89584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--615
+
+ []
+
+[15 <./img_yamato/Nappe_plot.png>] [16] [17] (rapport.bbl) [18] (rapport.aux)
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: 1F4ADA7C4FA3AA3A8FD87075532081B0;5728.
  ) 
 Here is how much of TeX's memory you used:
- 13654 strings out of 478927
- 214459 string characters out of 2848707
- 555223 words of memory out of 3000000
- 31281 multiletter control sequences out of 15000+600000
- 444164 words of font info for 49 fonts, out of 8000000 for 9000
+ 15607 strings out of 478927
+ 239005 string characters out of 2848707
+ 1029658 words of memory out of 3000000
+ 33059 multiletter control sequences out of 15000+600000
+ 412268 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,7n,79p,803b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.4} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-m/lm-mathit.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/lm/lm-rm.enc}{C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts
-/enc/dvips/lm/lm-ec.enc}<C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmbx10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Yamato Musubi/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Yamato Musubi/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Yamato Musubi/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Yamato 
-Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Y
-amato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/U
-sers/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.p
-fb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmsy10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmsy7.pfb>
-Output written on Rapport.pdf (2 pages, 201414 bytes).
+ 60i,14n,66p,882b,1408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Yamato Musubi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcbx1000.pk> <C:\Users\Yamato Musubi\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1000.pk><C:/Users/Yamato Musubi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Yamato Musubi/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Yamat
+o Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.p
+fb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Yamato Musubi/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Yamato Musubi/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/
+Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Yamato Musubi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Yamato Musubi/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/
+Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti10.pfb><C:/Users/Yamato Musubi/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Yamato Musubi/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/esvect/vect10.pfb>
+Output written on rapport.pdf (18 pages, 1534255 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
